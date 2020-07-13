@@ -1,0 +1,7 @@
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+}

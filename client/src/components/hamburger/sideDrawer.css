@@ -1,0 +1,53 @@
+.side-drawer{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color:transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* clip-path: circle(1000px at 90% -10%);
+    transition: all 1s ease-out; */
+}
+
+.side-drawer ul{
+    height: 60%;
+    width: 50%;
+    margin: 0;
+    background-color:orange;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    clip-path: circle(500px at 90% 10%);
+    transition: all 4s ease-in-out;
+   
+}
+
+
+
+.side-drawer li {
+    width: 100%;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 1.5rem auto;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+
+.side-drawer a{
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+}
+
+.side-drawer a:hover{
+    color: red;
+}

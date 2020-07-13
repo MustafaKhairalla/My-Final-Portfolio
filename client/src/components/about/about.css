@@ -1,0 +1,41 @@
+.about{
+    background-color: orangered;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 10rem;
+}
+
+.image{
+    background-color: orchid;
+    width: 50%;
+    padding: 2rem 0;
+}
+
+.image img {
+    border-radius: 10px;
+    box-shadow: 5px 10px 28px black;
+    position: relative;
+    animation-name: image;
+    animation-duration: 1s;
+    transition: all ease-out;
+}
+
+@keyframes image{
+    0% {left: -40px; top: 0px}
+    25% {left: -30px ; top: 0px}
+    50% {left: -20px ; top: 0px}
+    75% {left: -10px ; top: 0px}
+    100% {left: 0px ; top: 0px}
+}
+
+.myText{
+    background-color: palegreen;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para{
+    font-family: 'Open Sans', sans-serif;
+}
