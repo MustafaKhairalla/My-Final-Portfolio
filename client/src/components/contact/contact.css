@@ -1,0 +1,48 @@
+.contact {
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.contactHead{
+    padding: 1rem;
+}
+
+.contactArea{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactItem{
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    margin-bottom: 1rem;
+}
+
+.socialArea{
+    margin-top: 3rem;
+}
+
+.socialIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcon i {
+    margin: 0 1rem 0 1rem;
+}
+
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socialIcon a {
+    color: white;
+    margin: 0.25rem;
+}

@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+html{
+  
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Poiret One', cursive;
@@ -14,7 +22,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: scroll;
+    overflow: hidden;
     margin: 0;
     overflow: auto;
 }

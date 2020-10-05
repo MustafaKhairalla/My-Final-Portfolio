@@ -1,5 +1,4 @@
 import React from 'react';
-import { container } from "reactstrap";
 import "./Iam.css";
 
 const Iam = () => {

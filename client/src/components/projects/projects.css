@@ -1,0 +1,31 @@
+.projects{
+    width: 100%;
+    background-color: white;
+    padding: 2rem 0;
+}
+
+h1{
+    margin: 0 ;
+}
+
+.selection{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.BTN{
+    padding: 1rem;
+    background-color: #FFA500;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    min-width: 10rem;
+    margin: 2rem;
+}
+
+.BTN:focus {
+    outline: none;
+}
+
